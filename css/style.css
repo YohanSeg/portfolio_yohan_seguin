@@ -1,0 +1,198 @@
+/* Import de la policy depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap');
+
+/* ==== VARIABLES CSS ===== */
+html {
+    --color-background-lightyellow: #dada7b;
+    --color-background-grey: #666;
+    --color-border-lightgrey: #ccc;
+    --color-background-white: white;
+    --color-txt-black: black;
+    --color-txt-white: white;
+    --color-txt-blue: rgb(32, 73, 160);
+    --color-txt-lightgrey: #ccc;
+  
+    /* Aussi possible avec des valeurs qui ne sont pas des couleurs */
+    --spacing-default: 20px;
+  }
+
+/* ----------------------------------------------------BALISES PRINCIPALES---------------------------------------------------- */
+body{
+  font-family: Gemunu, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: stretch;
+  position: relative;
+  width: 100%;
+  top: 0xp;
+  z-index: 1;
+  justify-content: center;
+}
+    
+    /* background-color: var(--color-background-lightyellow); */
+    /* color: var(--color-txt-white); */
+    /* display: flexbox; */
+}
+
+nav{
+  font-size: small;
+  text-align: center;
+  padding: 1.5rem;
+  
+  background-image: url("/images/bandeau_bleu_fonce.jpg");
+  background-color: rgb(38, 74, 121);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-txt-white);
+
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+header{
+
+}
+
+main{
+
+}
+
+footer{
+  font-size: medium;
+  text-align: center;
+  color: var(--color-txt-white);
+  background-color: var(--color-background-grey);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center; /* Espace entre les éléments */
+  align-items: center; /* Aligner les éléments verticalement au centre */
+  flex-wrap: wrap;  /* Les éléments flexibles sont déplacés sur plusieurs lignes si nécessaire */
+  gap: 2rem; /* /* Xrem de marge entre chaque élément flexible */
+  margin-top: 1.5rem;
+
+  position: sticky;
+  bottom: 0px;
+  z-index: 1;
+}
+
+/* ----------------------------------------------------BALISES TITRES---------------------------------------------------- */
+h1{
+  color: var(--color-txt-white);
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-txt-white);
+  margin-left: 0.5rem;
+}
+
+h3{
+  font-weight: normal;
+  font-size: 1.rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--color-txt-white);
+  margin-left: 0.5rem;
+}
+
+/* ----------------------------------------------------BALISES PARAGRAPHES---------------------------------------------------- */
+p{
+  color: var(--color-txt-white);
+  font-size: medium;
+  margin-left: 2rem;
+}
+
+/* ------------------------------------------------------BALISES IMAGES------------------------------------------------------ */
+img{
+
+}
+
+/* -------------------------------------------------------BALISES LIENS------------------------------------------------------ */
+a{
+  text-decoration: none;
+  color: var(--color-txt-white);
+}
+
+/* ---------------------------------------------------------CLASS------------------------------------------------------------ */
+.imagedefond { 
+  background-image: url("/images/fond-texture-bleu-abstrait.jpg");
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-list{
+  padding: 0.7rem 0rem 0.7rem 0rem;
+}
+
+.nav-boutons{
+
+}
+
+.nav-boutons{
+  padding: 1rem;
+  display: inline
+}
+
+.header_p{
+  padding-top: 1.5rem;
+}
+
+.header_title{
+  background-color: rgb(55, 116, 165);
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-title{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1rem;
+}
+
+.img_photo{
+  top: 70px;
+  right: 70px;
+  border: 5px solid var(--color-border-lightgrey);
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  margin: 2rem;
+}
+
+.competences-ul-list {
+  color: var(--color-txt-white);
+  font-size: medium;
+  margin-left: 2rem;
+  list-style: outside;
+}
+
+.realisations_formation-a{
+  color: var(--color-txt-white);
+  font-size: medium;
+  margin-left: 2rem;
+  list-style: outside;
+
+}
