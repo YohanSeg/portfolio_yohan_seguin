@@ -35,7 +35,6 @@ body{
     /* background-color: var(--color-background-lightyellow); */
     /* color: var(--color-txt-white); */
     /* display: flexbox; */
-}
 
 nav{
   font-size: small;
@@ -189,10 +188,13 @@ a{
   list-style: outside;
 }
 
+.liste-liens-projets{
+  padding: 1rem;
+}
+
 .realisations_formation-a{
   color: var(--color-txt-white);
   font-size: medium;
   margin-left: 2rem;
   list-style: outside;
-
 }
