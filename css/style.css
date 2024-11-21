@@ -31,16 +31,11 @@ body{
   z-index: 1;
   justify-content: center;
 }
-    
-    /* background-color: var(--color-background-lightyellow); */
-    /* color: var(--color-txt-white); */
-    /* display: flexbox; */
 
 nav{
   font-size: small;
   text-align: center;
   padding: 1.5rem;
-  
   background-image: url("/images/bandeau_bleu_fonce.jpg");
   background-color: rgb(38, 74, 121);
   background-repeat: no-repeat;
@@ -50,14 +45,6 @@ nav{
   position: sticky;
   top: 0px;
   z-index: 1;
-}
-
-header{
-
-}
-
-main{
-
 }
 
 footer{
@@ -114,9 +101,8 @@ p{
 }
 
 /* ------------------------------------------------------BALISES IMAGES------------------------------------------------------ */
-img{
 
-}
+
 
 /* -------------------------------------------------------BALISES LIENS------------------------------------------------------ */
 a{
@@ -134,10 +120,6 @@ a{
 
 .nav-list{
   padding: 0.7rem 0rem 0.7rem 0rem;
-}
-
-.nav-boutons{
-
 }
 
 .nav-boutons{
@@ -171,30 +153,43 @@ a{
   padding: 1rem;
 }
 
-.img_photo{
+/* .img_photo{
   top: 70px;
   right: 70px;
   border: 5px solid var(--color-border-lightgrey);
   border-radius: 100%;
   height: 70px;
   width: 70px;
-  margin: 2rem;
+  margin-left: 5rem;
+} */
+
+.presentation_texte{
+  margin-left: 4rem;
 }
 
 .competences-ul-list {
   color: var(--color-txt-white);
   font-size: medium;
-  margin-left: 2rem;
+  margin-left: 5rem;
   list-style: outside;
 }
 
+.realisations_personnelles_liste{
+    margin-left: 4rem;
+}
+
 .liste-liens-projets{
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .realisations_formation-a{
   color: var(--color-txt-white);
   font-size: medium;
-  margin-left: 2rem;
+  padding: 0 0 0 4rem;
   list-style: outside;
+}
+
+.footer{
+  background-color: #3774A5;
 }
