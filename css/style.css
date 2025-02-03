@@ -8,6 +8,8 @@ html {
     --color-background-grey: #666;
     --color-border-lightgrey: #ccc;
     --color-background-white: white;
+    --color-background-black: #021526;
+    --color-background-bright-gray: #3a3f4b;
     --color-txt-black: black;
     --color-txt-white: white;
     --color-txt-blue: rgb(32, 73, 160);
@@ -27,21 +29,39 @@ body{
   align-items: stretch;
   position: relative;
   width: 100%;
-  top: 0xp;
+  top: 0px;
   z-index: 1;
   justify-content: center;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+header{
+  font-size: medium;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--color-background-black);
+  color: var(--color-txt-white);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 nav{
   font-size: small;
   text-align: center;
   padding: 1.5rem;
-  background-image: url("/images/bandeau_bleu_fonce.jpg");
-  background-color: rgb(38, 74, 121);
+  /* background-image: url("/images/bandeau_bleu_fonce.jpg"); */
+  background-color: var(--color-background-black);
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-txt-white);
-
   position: sticky;
   top: 0px;
   z-index: 1;
@@ -60,7 +80,6 @@ footer{
   flex-wrap: wrap;  /* Les éléments flexibles sont déplacés sur plusieurs lignes si nécessaire */
   gap: 2rem; /* /* Xrem de marge entre chaque élément flexible */
   margin-top: 1.5rem;
-
   position: sticky;
   bottom: 0px;
   z-index: 1;
@@ -69,7 +88,7 @@ footer{
 /* ----------------------------------------------------BALISES TITRES---------------------------------------------------- */
 h1{
   color: var(--color-txt-white);
-  font-size: xxx-large;
+  font-size: xx-large;
   font-weight: bold;
 }
 
@@ -112,14 +131,26 @@ a{
 
 /* ---------------------------------------------------------CLASS------------------------------------------------------------ */
 .imagedefond { 
-  background-image: url("/images/fond-texture-bleu-abstrait.jpg");
-  background-color: grey;
+  /* background-image: url("/images/fond-texture-bleu-abstrait.jpg"); */
+  background-color: var(--color-background-bright-gray);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .nav-list{
   padding: 0.7rem 0rem 0.7rem 0rem;
+}
+
+.logo-ys{
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .nav-boutons{
@@ -132,7 +163,6 @@ a{
 }
 
 .header_title{
-  background-color: rgb(55, 116, 165);
   padding: 0.5rem 0 0.5rem 0.5rem;
   margin-bottom: 1rem;
   display: flex;
@@ -191,5 +221,5 @@ a{
 }
 
 .footer{
-  background-color: #3774A5;
+  background-color: var(--color-background-black)
 }
