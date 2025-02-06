@@ -39,7 +39,7 @@ body{
 header{
   font-size: medium;
   text-align: center;
-  padding: 1.5rem;
+  padding: 0.2rem;
   background-color: var(--color-background-black);
   color: var(--color-txt-white);
   position: sticky;
@@ -81,8 +81,6 @@ footer{
   gap: 2rem; /* /* Xrem de marge entre chaque élément flexible */
   margin-top: 1.5rem;
   position: sticky;
-  bottom: 0px;
-  z-index: 1;
 }
 
 /* ----------------------------------------------------BALISES TITRES---------------------------------------------------- */
